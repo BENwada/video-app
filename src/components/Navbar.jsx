@@ -30,12 +30,12 @@ const Search = styled.div`
   justify-content: space-between;
   padding: 5px;
   border: 1px solid #ccc;
+  border-radius: 3px;
 `;
 
 const Input = styled.input`
   border: none;
   background-color: transparent;
-  width: 100%;
 `;
 
 const Button = styled.button`
