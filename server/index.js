@@ -17,5 +17,6 @@ const connect = () => {
 };
 
 app.listen(8800, () => {
-  console.log("Connected!");
+  connect();
+  console.log("Connected to Server");
 });
