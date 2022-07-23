@@ -86,7 +86,7 @@ const SignIn = () => {
     }
   };
 
-  const signInWithGoogle = () => {
+  const signInWithGoogle = async () => {
     dispatch(loginStart());
     signInWithPopup(auth, provider)
       .then((result) => {
